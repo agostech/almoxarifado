@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('movimentacoes', function (Blueprint $table) {
             $table->id();
-            $table->enum('tipo', ['farda', 'ferramenta', 'outros']);
+            $table->enum('tipo', ['Entrada', 'Saída', 'Outros']);
             $table->integer('quantidade');
             $table->date('data_registro');
             $table->foreignId('produto_id')->constrained()->onDelete('restrict')->onUpdate('restrict');

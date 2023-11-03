@@ -11,7 +11,7 @@ class ProdutoController extends Controller
      */
     public function index()
     {
-        //
+        return view('produtos.index');
     }
 
     /**
@@ -19,7 +19,7 @@ class ProdutoController extends Controller
      */
     public function create()
     {
-        //
+        return view('produtos.create');
     }
 
     /**
@@ -41,9 +41,9 @@ class ProdutoController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit()
     {
-        //
+        return view('produtos.edit');
     }
 
     /**

@@ -11,7 +11,7 @@ class TipoProdutoController extends Controller
      */
     public function index()
     {
-        //
+        return view('categorias.index');
     }
 
     /**
@@ -19,7 +19,7 @@ class TipoProdutoController extends Controller
      */
     public function create()
     {
-        //
+        return view('categorias.create');
     }
 
     /**
@@ -41,9 +41,9 @@ class TipoProdutoController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit()
     {
-        //
+        return view('categorias.edit');
     }
 
     /**

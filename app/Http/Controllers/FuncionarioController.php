@@ -11,7 +11,7 @@ class FuncionarioController extends Controller
      */
     public function index()
     {
-        //
+        return view('funcionarios.index');
     }
 
     /**
@@ -19,7 +19,7 @@ class FuncionarioController extends Controller
      */
     public function create()
     {
-        //
+        return view('funcionarios.create');
     }
 
     /**
@@ -41,9 +41,9 @@ class FuncionarioController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit()
     {
-        //
+        return view('funcionarios.edit');
     }
 
     /**

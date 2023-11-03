@@ -11,15 +11,14 @@ class DepartamentoController extends Controller
      */
     public function index()
     {
-        //
+        return view('departamentos.index');
     }
-
     /**
      * Show the form for creating a new resource.
      */
     public function create()
     {
-        //
+        return view('departamentos.create');
     }
 
     /**
@@ -41,9 +40,9 @@ class DepartamentoController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit()
     {
-        //
+        return view('departamentos.edit');
     }
 
     /**
